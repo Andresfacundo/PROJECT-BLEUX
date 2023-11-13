@@ -399,7 +399,7 @@ footer div {
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:480px) {
     .navbar {
         flex-wrap: wrap;
     }
