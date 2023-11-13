@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@100&family=Montserrat:wght@100&family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family: 'Segoe UI';
+
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1E172F;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    /* font-weight: 520; */
+}
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
+.navbar .list {
+    color: #817E8B;
+}
+
+.btn-download {
+    background: linear-gradient(90deg, #7E44D5, #0B7BD5);
+    padding: .7rem 1.2rem .7rem 1.2rem;
+    border-radius: .3rem;
+
+}
+
+.section1 {
+    width: 100%;
+    height: 45rem;
+    display: flex;
+
+}
+
+.section-product {
+    width: 50%;
+    background-color: #2E2550;
+    padding-top: 11rem;
+    padding-left: 19.5rem;
+}
+
+.section-product h1 {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+
+}
+
+.section-product p {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.section-product .btn-div {
+    border: 3px solid #534C6F;
+    display: inline-block;
+    padding: .3rem;
+    border-radius: .4rem;
+
+}
+
+.btn-now {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #ED6FB0;
+    border-radius: .3rem;
+    padding: .8rem 1.8rem .8rem 1.8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.btn-feature {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: .3rem;
+    padding: .8rem 1.8rem .8rem 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.phone {
+    width: 50%;
+    background-image: url(/IMG/hojasFondo.jpg);
+    background-size: cover;
+}
+
+.phone img {
+    margin-left: 17rem;
+    margin-top: 8rem;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    background-color: #F1F2F7;
+    padding-bottom: 6rem;
+}
+
+.laptop {
+
+    padding-top: 7rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2 h2 {
+    color: #F41486;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 3rem;
+}
+
+.laptop img {
+    width: 600px;
+}
+
+.container-alpha h3 {
+    color: #C45990;
+    font-size: 4rem;
+    font-weight: 350;
+    padding-bottom: 3rem;
+}
+
+.container-alpha p {
+    line-height: 2rem;
+    color: #858687;
+    font-size: 1.4rem;
+    font-weight: 450;
+
+}
+
+.container-alpha h4 {
+    color: #F3248E;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: .6rem;
+}
+
+.fa-regular {
+    font-size: 1.4rem;
+    color: #F3248E;
+}
+
+.section-cards {
+    width: 100%;
+    height: auto;
+    background-color: #1E172F;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-cards h2 {
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+
+.section-cards .p1 {
+    color: #ACA9B1;
+    width: 50rem;
+    font-size: 1.5rem;
+}
+
+.container-card {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards {
+    background-color: #F1F2F7;
+    width: 24rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+
+.lite {
+    color: #F3248E !important;
+}
+
+.cards h3 {
+    color: #2C2744;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.price {
+    background-color: #eae8ea;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+}
+
+.price h4 {
+    font-weight: 400;
+    display: flex;
+    font-size: 2.5rem;
+    color: #000;
+    gap: .5rem;
+}
+
+.price p {
+    font-size: 1.3rem;
+    color: #535353;
+
+}
+
+.icons-text {
+    gap: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 1.5rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.fa-solid {
+    color: #F41687;
+}
+
+.text {
+    color: #4C4C4C;
+    line-height: 38px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nulla {
+    margin-top: 2rem;
+    color: #4C4C4C;
+    font-size: 20px;
+
+
+}
+
+.container-subcribe {
+    margin-top: 2rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    background-color: #eae8ea;
+    border-bottom-right-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+
+}
+
+.btn-subcribe {
+    background: linear-gradient(90deg, #EB66AA, #F41586);
+    border-radius: .3rem;
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-subcribe-now {
+    background-color: #2E2550;
+    padding: .8rem 1.5rem .8rem 1.5rem;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    justify-content: space-around;
+
+}
+
+footer div {
+    color: #4B4B4B;
+}
+
+.nom {
+    color: #F13B98;
+}
+
+.networks {
+    display: flex;
+    gap: 1rem;
+}
+
+/*--------------- media Querys -------------*/
+
+@media(max-width:920px) {
+
+    /* -----------------------seccion de product page mas phone--------------------- */
+    .section-product {
+        padding-left: 2rem;
+    }
+
+    .section-product h1 {
+        font-size: 4rem;
+    }
+
+    .section-product p {
+        font-size: 1.1rem;
+    }
+
+    .section-product .btn-div {
+        padding: .2rem;
+    }
+
+    .btn-now {
+        padding: .6rem .9rem .6rem .9rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .btn-feature {
+        padding: .5rem .9rem .5rem .9rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .phone img {
+        margin-left: 2rem;
+        width: 250px;
+    }
+
+    /* -------------------------seccion de alpha screenshot------------- */
+    .section2 h2 {
+        font-size: 4rem;
+    }
+
+    .laptop {
+        flex-wrap: wrap;
+    }
+
+    .laptop img {
+        width: 500px;
+    }
+
+    .container-alpha {
+        padding-top: 5rem;
+    }
+
+    .container-alpha h3 {
+        font-size: 3rem;
+    }
+
+    .container-alpha p {
+        font-size: 1.2rem;
+    }
+
+    /* --------------------------section card------------------- */
+    .section-cards h2 {
+        font-size: 3.5rem;
+    }
+
+    .section-cards .p1 {
+        font-size: 1.2rem;
+
+    }
+
+    .container-card {
+        justify-content: center;
+    }
+}
+
+@media(max-width:380px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar ul {
+        font-size: 1rem;
+        gap: .9rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+        font-size: 2rem;
+        border: 0;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    nav {
+        background-color: #1E172F;
+        padding: 1.1rem;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        right: 0;
+        position: absolute;
+        bottom: auto;
+        box-shadow: 0 0 0 600vmax rgba(0, 0, 0, .6);
+        line-height: 2rem;
+        
+        
+    }
+
+    nav.visible {
+        opacity: 1;
+        visibility: visible;
+        
+        
+    }
+
+    nav ul {
+        flex-direction: column;
+
+    }
+
+    .btn-download {
+        padding: .5rem 1rem .5rem 1rem;
+
+    }
+
+    .section-product {
+        width: 100%;
+        padding-left: 1rem;
+        padding-top: 10rem;
+    }
+
+    .section-product h1 {
+        font-size: 3rem;
+    }
+
+    .section-product p {
+        font-size: 1rem;
+    }
+
+    .section-product .btn-div {
+        display: inline-block;
+        padding: .2rem;
+    }
+
+    .btn-now {
+        padding: .5rem .8rem .5rem .8rem;
+        font-size: .9rem;
+        font-weight: 700;
+    }
+
+    .btn-feature {
+        padding: .4rem .8rem .4rem .8rem;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .section2 h2 {
+        font-size: 3rem;
+    }
+
+    .laptop {
+        flex-wrap: wrap;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 3rem;
+    }
+
+    .laptop img {
+        width: 300px;
+
+    }
+
+    .container-alpha {
+        padding-top: 5rem;
+        padding-left: 1rem;
+    }
+
+    .container-alpha h3 {
+        font-size: 2rem;
+
+    }
+
+    .container-alpha p {
+        font-size: 1.1rem;
+        white-space: nowrap;
+    }
+
+    .container-alpha h4 {
+        font-size: 1.4rem;
+    }
+
+    .fa-regular {
+        font-size: 1.1rem;
+    }
+
+    .section-cards h2 {
+        font-size: 2rem;
+
+    }
+
+    .section-cards .p1 {
+        width: 100%;
+        font-size: .9rem;
+    }
+
+    .container-card {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards {
+        width: 18rem;
+    }
+
+    .cards img {
+        width: 60px;
+    }
+
+    .cards h3 {
+        font-size: 1.2rem;
+    }
+
+    .price {
+        padding: .5rem;
+    }
+
+    .price h4 {
+        font-size: 1.6rem;
+    }
+
+    .price p {
+        font-size: 1rem;
+    }
+
+    .icon {
+        gap: 18px;
+        font-size: 15px;
+    }
+
+    .text {
+        line-height: 33px;
+        font-size: 15px;
+    }
+
+    .nulla {
+        font-size: 15px;
+
+    }
+
+    .btn-subcribe {
+        padding: .7rem 1.5rem .7rem 1.5rem;
+        font-size: 1rem;
+
+    }
+
+    .btn-subcribe-now {
+        padding: .7rem 1.5rem .7rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: .8rem;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .networks img {
+        width: 20px;
+        margin-top: 1rem;
+    }
+
+    ;
+
+
+}
