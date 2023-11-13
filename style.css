@@ -43,6 +43,9 @@
     border-radius: .3rem;
 
 }
+main{
+    width: 100%;
+}
 
 .section1 {
     width: 100%;
@@ -402,6 +405,7 @@ footer div {
 @media(max-width:480px) {
     .navbar {
         flex-wrap: wrap;
+        gap: 10rem;
     }
 
     .navbar ul {
@@ -454,6 +458,7 @@ footer div {
     }
 
     .section-product {
+        text-align: center;
         width: 100%;
         padding-left: 1rem;
         padding-top: 10rem;
@@ -510,6 +515,7 @@ footer div {
     }
 
     .container-alpha h3 {
+        text-align: center;
         font-size: 2rem;
 
     }
@@ -520,6 +526,7 @@ footer div {
     }
 
     .container-alpha h4 {
+        text-align: center;
         font-size: 1.4rem;
     }
 
@@ -533,7 +540,7 @@ footer div {
     }
 
     .section-cards .p1 {
-        width: 100%;
+        width: 90%;
         font-size: .9rem;
     }
 
@@ -593,7 +600,7 @@ footer div {
     }
 
     footer {
-        font-size: .8rem;
+        font-size: .9rem;
         flex-wrap: wrap;
         padding-top: 1rem;
         padding-bottom: 1rem;
