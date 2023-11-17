@@ -58,18 +58,18 @@ main{
     width: 50%;
     background-color: #2E2550;
     padding-top: 11rem;
-    padding-left: 19.5rem;
+    padding-left: 9rem;
 }
 
 .section-product h1 {
     display: inline-block;
     margin-bottom: 1rem;
-    font-size: 5rem;
+    font-size: 4.5rem;
 
 }
 
 .section-product p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 1.7rem;
     margin-bottom: 2rem;
 }
@@ -77,8 +77,8 @@ main{
 .section-product .btn-div {
     border: 3px solid #534C6F;
     display: inline-block;
-    padding: .3rem;
-    border-radius: .4rem;
+    padding: .2rem;
+    border-radius: .3rem;
 
 }
 
@@ -88,8 +88,8 @@ main{
     background-color: #fff;
     color: #ED6FB0;
     border-radius: .3rem;
-    padding: .8rem 1.8rem .8rem 1.8rem;
-    font-size: 1.2rem;
+    padding: .7rem 1.3rem .7rem 1.3rem;
+    font-size: 1.1rem;
     font-weight: 700;
 }
 
@@ -97,7 +97,7 @@ main{
     background-color: transparent;
     border: 2px solid #fff;
     border-radius: .3rem;
-    padding: .8rem 1.8rem .8rem 1.8rem;
+    padding: .6rem 1.3rem .6rem 1.3rem;
     font-size: 1.1rem;
     font-weight: 500;
 }
@@ -109,8 +109,8 @@ main{
 }
 
 .phone img {
-    margin-left: 17rem;
-    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-top: 7rem;
 }
 
 .section2 {
@@ -121,7 +121,7 @@ main{
 }
 
 .laptop {
-
+    gap: 8rem;
     padding-top: 7rem;
     padding-left: 15rem;
     padding-right: 15rem;
@@ -132,25 +132,30 @@ main{
 .section2 h2 {
     color: #F41486;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     padding-top: 3rem;
 }
 
 .laptop img {
-    width: 600px;
+    width: 500px;
+    object-fit: contain;
+    
+}
+.container-alpha {
+    margin-bottom: 2rem;
 }
 
 .container-alpha h3 {
     color: #C45990;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 350;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .container-alpha p {
     line-height: 2rem;
     color: #858687;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 450;
 
 }
@@ -183,14 +188,14 @@ main{
 }
 
 .section-cards h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-bottom: 3rem;
 }
 
 .section-cards .p1 {
     color: #ACA9B1;
     width: 50rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .container-card {
@@ -201,9 +206,9 @@ main{
 
 .cards {
     background-color: #F1F2F7;
-    width: 24rem;
+    width: 22rem;
     height: auto;
-    margin: 1rem;
+    margin: 2rem;
     border-radius: .5rem;
 }
 
@@ -329,6 +334,7 @@ footer div {
 @media(max-width:920px) {
 
     /* -----------------------seccion de product page mas phone--------------------- */
+  
     .section-product {
         padding-left: 2rem;
     }
@@ -394,12 +400,17 @@ footer div {
 
     .section-cards .p1 {
         font-size: 1.2rem;
+        width: 98%;
 
     }
 
     .container-card {
         justify-content: center;
     }
+    footer{
+        font-size: 1.2rem;
+        
+    };
 }
 
 @media(max-width:480px) {
@@ -423,6 +434,7 @@ footer div {
         background-color: transparent;
         cursor: pointer;
     }
+   
 
     nav {
         background-color: #1E172F;
@@ -521,7 +533,7 @@ footer div {
     }
 
     .container-alpha p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         white-space: nowrap;
     }
 
@@ -601,7 +613,9 @@ footer div {
 
     footer {
         font-size: .9rem;
-        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
 
@@ -612,7 +626,7 @@ footer div {
         margin-top: 1rem;
     }
 
-    ;
+    
 
 
 }
